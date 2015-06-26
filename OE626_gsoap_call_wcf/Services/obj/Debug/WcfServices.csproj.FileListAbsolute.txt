@@ -1,0 +1,6 @@
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.exe.config
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\WcfServices.csprojResolveAssemblyReference.cache
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\Services.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\Services.pdb

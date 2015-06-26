@@ -1,0 +1,12 @@
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\bin\Debug\ClientConsole.exe.config
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\bin\Debug\ClientConsole.exe
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\bin\Debug\ClientConsole.pdb
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\obj\Debug\ClientConsole.csprojResolveAssemblyReference.cache
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\obj\Debug\ClientConsole.exe
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\ClientConsole\obj\Debug\ClientConsole.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\bin\Debug\ClientConsole.exe.config
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\bin\Debug\ClientConsole.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\bin\Debug\ClientConsole.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\obj\Debug\ClientConsole.csprojResolveAssemblyReference.cache
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\obj\Debug\ClientConsole.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\ClientConsole\obj\Debug\ClientConsole.pdb

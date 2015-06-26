@@ -1,0 +1,160 @@
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"
+Content-Length: 472
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"
+Content-Length: 472
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"
+Content-Length: 472
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"
+Content-Length: 472
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 476
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 476
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /calcservice HTTP/1.1
+Host: 192.168.1.104:15618
+User-Agent: gSOAP/2.8
+Content-Type: text/xml; charset=utf-8
+Content-Length: 510
+Connection: close
+SOAPAction: "http://o2.jrrpc.com/ICalc/Add"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:JR1="http://tempuri.org/" xmlns:JR3="http://o2.jrrpc.com/"><SOAP-ENV:Body><JR3:Add><JR3:x>11</JR3:x><JR3:y>22</JR3:y></JR3:Add></SOAP-ENV:Body></SOAP-ENV:Envelope>

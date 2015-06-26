@@ -1,0 +1,83 @@
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\oe625b\gsoapclient\stdsoap2.cpp(9744): malloc(272) = 00C017B8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Attribute 'xmlns:c14n'='http://www.w3.org/2001/10/xml-exc-c14n#'
+Attribute 'xmlns:xenc'='http://www.w3.org/2001/04/xmlenc#'
+Attribute 'xmlns:wsc'='http://schemas.xmlsoap.org/ws/2005/02/sc'
+Attribute 'xmlns:ds'='http://www.w3.org/2000/09/xmldsig#'
+Attribute 'xmlns:wsse'='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd'
+Attribute 'xmlns:chan'='http://schemas.microsoft.com/ws/2005/02/duplex'
+Attribute 'xmlns:wsa5'='http://www.w3.org/2005/08/addressing'
+Attribute 'xmlns:wsu'='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd'
+Attribute 'xmlns:wst'='http://schemas.xmlsoap.org/ws/2005/02/trust'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\oe625b\gsoapclient\stdsoap2.cpp(7969): malloc(40) = 00C01958
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=260 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=1061
+New count=1061
+Initializing for output to socket=260/fd=1
+Free namespace stack
+Begin send phase (socket=260 mode=0x1 count=1061)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Attribute 'xmlns:c14n'='http://www.w3.org/2001/10/xml-exc-c14n#'
+Attribute 'xmlns:xenc'='http://www.w3.org/2001/04/xmlenc#'
+Attribute 'xmlns:wsc'='http://schemas.xmlsoap.org/ws/2005/02/sc'
+Attribute 'xmlns:ds'='http://www.w3.org/2000/09/xmldsig#'
+Attribute 'xmlns:wsse'='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd'
+Attribute 'xmlns:chan'='http://schemas.microsoft.com/ws/2005/02/duplex'
+Attribute 'xmlns:wsa5'='http://www.w3.org/2005/08/addressing'
+Attribute 'xmlns:wsu'='http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd'
+Attribute 'xmlns:wst'='http://schemas.xmlsoap.org/ws/2005/02/trust'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 1318 bytes to socket=260/fd=1
+End of send phase
+Initializing for input from socket=260/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\oe625b\gsoapclient\stdsoap2.cpp(8849): free(00C017B8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\oe625b\gsoapclient\stdsoap2.cpp(9744): malloc(272) = 00C017B8
+Free ID hashtable

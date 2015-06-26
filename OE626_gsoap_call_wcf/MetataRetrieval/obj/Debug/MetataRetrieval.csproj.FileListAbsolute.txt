@@ -1,0 +1,12 @@
+L:\music\MetataRetrieval\MetataRetrieval\MetataRetrieval\bin\Debug\MetataRetrieval.exe
+L:\music\MetataRetrieval\MetataRetrieval\MetataRetrieval\bin\Debug\MetataRetrieval.pdb
+L:\music\MetataRetrieval\MetataRetrieval\MetataRetrieval\obj\Debug\MetataRetrieval.csprojResolveAssemblyReference.cache
+L:\music\MetataRetrieval\MetataRetrieval\MetataRetrieval\obj\Debug\MetataRetrieval.exe
+L:\music\MetataRetrieval\MetataRetrieval\MetataRetrieval\obj\Debug\MetataRetrieval.pdb
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\MetataRetrieval\obj\Debug\MetataRetrieval.exe
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\MetataRetrieval\obj\Debug\MetataRetrieval.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\MetataRetrieval\bin\Debug\MetataRetrieval.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\MetataRetrieval\bin\Debug\MetataRetrieval.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\MetataRetrieval\obj\Debug\MetataRetrieval.csprojResolveAssemblyReference.cache
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\MetataRetrieval\obj\Debug\MetataRetrieval.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\MetataRetrieval\obj\Debug\MetataRetrieval.pdb

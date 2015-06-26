@@ -1,0 +1,1756 @@
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00F831E8
+Begin count phase (socket=-1 mode=0x2000008 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00F832F8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=256 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=472
+New count=472
+Initializing for output to socket=256/fd=1
+Free namespace stack
+Begin send phase (socket=256 mode=0x2000001 count=472)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000001
+Send 728 bytes to socket=256/fd=1
+End of send phase
+Initializing for input from socket=256/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00F831E8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00F831E8
+Free ID hashtable
+Read 305 bytes from socket=256/fd=0
+Read count=305 (+305)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+HTTP header: Content-Length: 0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:25:05 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 415
+Keep alive connection = 0
+HTTP error 415: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00F8A160
+Instantiated location=00F8A200
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00F8A260
+Instantiated location=00F8A300
+Shutdown socket=256 how=2
+Close socket=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8186): free(00F8A260)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8186): free(00F8A160)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00F831E8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8128): free(00F832F8)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(00F830F8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(00F83060)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(00F82FC8)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0073D3D8
+Begin count phase (socket=-1 mode=0x2000008 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 0073D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=256 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=472
+New count=472
+Initializing for output to socket=256/fd=1
+Free namespace stack
+Begin send phase (socket=256 mode=0x2000001 count=472)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000001
+Send 728 bytes to socket=256/fd=1
+End of send phase
+Initializing for input from socket=256/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(0073D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0073D3D8
+Free ID hashtable
+Read 305 bytes from socket=256/fd=0
+Read count=305 (+305)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+HTTP header: Content-Length: 0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:25:23 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 415
+Keep alive connection = 0
+HTTP error 415: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00734268
+Instantiated location=00733580
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 007341E8
+Instantiated location=0072D898
+Shutdown socket=256 how=2
+Close socket=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8186): free(007341E8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8186): free(00734268)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(0073D3D8)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8128): free(0073D488)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(0072DD68)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(0072DB70)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(5653): free(0072DD30)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00D488D8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00D489E8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=256 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=472
+New count=472
+Initializing for output to socket=256/fd=1
+Free namespace stack
+Begin send phase (socket=256 mode=0x1 count=472)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 728 bytes to socket=256/fd=1
+End of send phase
+Initializing for input from socket=256/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00D488D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00D488D8
+Free ID hashtable
+Read 305 bytes from socket=256/fd=0
+Read count=305 (+305)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+HTTP header: Content-Length: 0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:26:38 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 415
+Keep alive connection = 0
+HTTP error 415: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00D50BF8
+Instantiated location=00D50C98
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00D50CF8
+Instantiated location=00D50D98
+Shutdown socket=256 how=2
+Close socket=256
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00D1D3D8
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00D1D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=252 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=472
+New count=472
+Initializing for output to socket=252/fd=1
+Free namespace stack
+Begin send phase (socket=252 mode=0x1 count=472)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 728 bytes to socket=252/fd=1
+End of send phase
+Initializing for input from socket=252/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00D1D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00D1D3D8
+Free ID hashtable
+Read 305 bytes from socket=252/fd=0
+Read count=305 (+305)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+HTTP header: Content-Length: 0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:26:56 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 415
+Keep alive connection = 0
+HTTP error 415: HTTP/1.1 415 Cannot process the message because the content type 'application/soap+xml; charset=utf-8; action="http://o2.jrrpc.com/ICalc/Add"' was not the expected type 'text/xml; charset=utf-8'.
+soap_instantiate_SOAP_ENV__Fault(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00D14128
+Instantiated location=00D137B0
+soap_instantiate_SOAP_ENV__Detail(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8272): malloc(20) = 00D13F28
+Instantiated location=00D0D9B0
+Shutdown socket=252 how=2
+Close socket=252
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00AF88D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00AF89E8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=268 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=476
+New count=476
+Initializing for output to socket=268/fd=1
+Free namespace stack
+Begin send phase (socket=268 mode=0x1 count=476)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 680 bytes to socket=268/fd=1
+End of send phase
+Initializing for input from socket=268/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00AF88D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00AF88D8
+Free ID hashtable
+Read 340 bytes from socket=268/fd=0
+Read count=340 (+340)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 174
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00B00BF8
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:40:04 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00B00CA8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00B00D58
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00B00EE8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00B01078
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00B01120
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00B011D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00B01288
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00B01418
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=0067F880 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00B014B8
+Element content value='0'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00B01418)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00B01078)
+Shutdown socket=268 how=2
+Close socket=268
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00C1D3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00C1D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=260 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=476
+New count=476
+Initializing for output to socket=260/fd=1
+Free namespace stack
+Begin send phase (socket=260 mode=0x1 count=476)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 680 bytes to socket=260/fd=1
+End of send phase
+Initializing for input from socket=260/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00C1D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00C1D3D8
+Free ID hashtable
+Read 340 bytes from socket=260/fd=0
+Read count=340 (+340)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 174
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00C13440
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:40:20 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00C13490
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00C45220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00C45350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00C10578
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00C45480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00C13580
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00C454D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00C13F28
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00A6F958 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00C13EA8
+Element content value='0'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00C13F28)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00C10578)
+Shutdown socket=260 how=2
+Close socket=260
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0079D3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 0079D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=272 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=272/fd=1
+Free namespace stack
+Begin send phase (socket=272 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=272/fd=1
+End of send phase
+Initializing for input from socket=272/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(0079D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0079D3D8
+Free ID hashtable
+Read 341 bytes from socket=272/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00793300
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:40:43 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00793170
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 007C5220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 007C5350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 007902F0
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 007C5480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 007931C0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 007C54D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00793D28
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=005BF998 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00794228
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00793D28)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(007902F0)
+Shutdown socket=272 how=2
+Close socket=272
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00FE88D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00FE89E8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=284 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=284/fd=1
+Free namespace stack
+Begin send phase (socket=284 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=284/fd=1
+End of send phase
+Initializing for input from socket=284/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00FE88D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00FE88D8
+Free ID hashtable
+Read 341 bytes from socket=284/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00FF0BF8
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:42:02 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00FF0CA8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00FF0D58
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00FF0EE8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00FF1078
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00FF1120
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00FF11D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00FF1288
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00FF1418
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00D7FB64 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00FF14B8
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00FF1418)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00FF1078)
+Shutdown socket=284 how=2
+Close socket=284
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0087D3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 0087D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=256 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=256/fd=1
+Free namespace stack
+Begin send phase (socket=256 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=256/fd=1
+End of send phase
+Initializing for input from socket=256/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(0087D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 0087D3D8
+Free ID hashtable
+Read 341 bytes from socket=256/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00873760
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:42:28 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00873030
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 008A5220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 008A5350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00870020
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 008A5480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00873530
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 008A54D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 008740A8
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=005DFAC0 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00873B68
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(008740A8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00870020)
+Shutdown socket=256 how=2
+Close socket=256
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00E7D3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00E7D488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=268 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=268/fd=1
+Free namespace stack
+Begin send phase (socket=268 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=268/fd=1
+End of send phase
+Initializing for input from socket=268/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00E7D3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00E7D3D8
+Free ID hashtable
+Read 341 bytes from socket=268/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00E730D0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:42:42 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00E73120
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00EA5220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00EA5350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00E70338
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00EA5480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00E73710
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00EA54D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00E740E8
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00BDFBF4 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00E73C68
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00E740E8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00E70338)
+Shutdown socket=268 how=2
+Close socket=268
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 006DD3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 006DD488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=252 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=252/fd=1
+Free namespace stack
+Begin send phase (socket=252 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=252/fd=1
+End of send phase
+Initializing for input from socket=252/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(006DD3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 006DD3D8
+Free ID hashtable
+Read 341 bytes from socket=252/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 006D33F0
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:43:41 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 006D34E0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00705220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00705350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 006D0260
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00705480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 006D3620
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 007054D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 006D42E8
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=003DF7F4 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 006D3EA8
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(006D42E8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(006D0260)
+Shutdown socket=252 how=2
+Close socket=252
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 011788D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 011789E8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=260 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=260/fd=1
+Free namespace stack
+Begin send phase (socket=260 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=260/fd=1
+End of send phase
+Initializing for input from socket=260/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(011788D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 011788D8
+Free ID hashtable
+Read 341 bytes from socket=260/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 01180BF8
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:51:06 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 01180CA8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 01180D58
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 01180EE8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 01181078
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 01181120
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 011811D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 01181288
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 01181418
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00D5F684 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 011814B8
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(01181418)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(01181078)
+Shutdown socket=260 how=2
+Close socket=260
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 005FD3D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 005FD488
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=252 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=252/fd=1
+Free namespace stack
+Begin send phase (socket=252 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=252/fd=1
+End of send phase
+Initializing for input from socket=252/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(005FD3D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 005FD3D8
+Free ID hashtable
+Read 341 bytes from socket=252/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 005F3580
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 01:51:15 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 005F3670
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00625220
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00625350
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 005F04A0
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00625480
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 005F3710
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 006254D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 005F3B68
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=0020F81C size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 005F3EA8
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(005F3B68)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(005F04A0)
+Shutdown socket=252 how=2
+Close socket=252
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 010C88D8
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 010C89E8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=260 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=260/fd=1
+Free namespace stack
+Begin send phase (socket=260 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=260/fd=1
+End of send phase
+Initializing for input from socket=260/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(010C88D8)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 010C88D8
+Free ID hashtable
+Read 341 bytes from socket=260/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 010D0BF8
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 02:04:50 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 010D0CA8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 010D0D58
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 010D0EE8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 010D1078
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 010D1120
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 010D11D8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 010D1288
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 010D1418
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00DBF7EC size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 010D14B8
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(010D1418)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(010D1078)
+Shutdown socket=260 how=2
+Close socket=260
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 01494998
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 01494AA8
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=264 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=264/fd=1
+Free namespace stack
+Begin send phase (socket=264 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=264/fd=1
+End of send phase
+Initializing for input from socket=264/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(01494998)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 01494998
+Free ID hashtable
+Read 341 bytes from socket=264/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 0149BEA8
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 02:08:36 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 0149BF58
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 0149C008
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 0149C198
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 0149C328
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 0149C3D0
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 0149C488
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 0149C538
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 0149C6C8
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00FAFABC size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 0149C768
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(0149C6C8)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(0149C328)
+Shutdown socket=264 how=2
+Close socket=264
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00F26228
+Free namespace stack
+Begin count phase (socket=-1 mode=0x8 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(40) = 00F26338
+Connect/reconnect to 'http://192.168.1.104:15618/calcservice' host='192.168.1.104' path='/calcservice' port=15618
+Opening socket=264 to host='192.168.1.104' port=15618
+Calculating the message size with attachments, current count=510
+New count=510
+Initializing for output to socket=264/fd=1
+Free namespace stack
+Begin send phase (socket=264 mode=0x1 count=510)
+HTTP POST to http://192.168.1.104:15618/calcservice
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://schemas.xmlsoap.org/soap/envelope/'
+Attribute 'xmlns:SOAP-ENC'='http://schemas.xmlsoap.org/soap/encoding/'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:JR4'='http://schemas.microsoft.com/2003/10/Serialization/'
+Attribute 'xmlns:JR1'='http://tempuri.org/'
+Attribute 'xmlns:JR3'='http://o2.jrrpc.com/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='JR3:Add' level='2' id='0' type=''
+Element begin tag='JR3:x' level='3' id='0' type=''
+Element ending tag='JR3:x'
+Element begin tag='JR3:y' level='3' id='0' type=''
+Element ending tag='JR3:y'
+Element ending tag='JR3:Add'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x1
+Send 714 bytes to socket=264/fd=1
+End of send phase
+Initializing for input from socket=264/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8849): free(00F26228)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(9744): malloc(128) = 00F26228
+Free ID hashtable
+Read 341 bytes from socket=264/fd=0
+Read count=341 (+341)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Content-Length: 175
+HTTP header: Content-Type: text/xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(36) = 00F2E548
+HTTP header: Server: Microsoft-HTTPAPI/2.0
+HTTP header: Date: Fri, 26 Jun 2015 02:11:26 GMT
+HTTP header: Connection: close
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(31) = 00F2E5F8
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11017): malloc(256) = 00F2E6A8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00F2E838
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(21) = 00F2E9C8
+Push namespace binding (level=0) 's' 'http://schemas.xmlsoap.org/soap/envelope/'
+Push OK ('s' matches 'SOAP-ENV' in namespace table)
+Tags and (default) namespaces match: 's:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(16108): malloc(42) = 00F2EA70
+Tags and (default) namespaces match: 's:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 's:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11213): malloc(29) = 00F2EB28
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(11272): malloc(256) = 00F2EBD8
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(2885): malloc(20) = 00F2ED68
+Push namespace binding (level=2) '' 'http://o2.jrrpc.com/'
+Push OK ('' matches 'JR3' in namespace table)
+Tags and (default) namespaces match: 'AddResponse' 'JR3:AddResponse'
+Begin tag found (level=3) 'AddResponse'='JR3:AddResponse'
+Enter id='' type=49 loc=00DBF960 size=12 level=0
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Reverting to last element 'AddResult' (level=3)
+Tags and (default) namespaces match: 'AddResult' 'JR3:AddResult'
+Begin tag found (level=4) 'AddResult'='JR3:AddResult'
+Enter id='' type=31 loc=00000000 size=8 level=0
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(7969): malloc(20) = 00F2EE08
+Element content value='33'
+End tag found (level=4) 'AddResult'='JR3:AddResult'
+End tag found (level=3) 'AddResponse'='JR3:AddResponse'
+End tag found (level=2) 's:Body'='SOAP-ENV:Body'
+End tag found (level=1) 's:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00F2ED68)
+h:\t2 15\rpc\unix\gsoap\source\s408_metadata\cppclient\stdsoap2.cpp(8874): free(00F2E9C8)
+Shutdown socket=264 how=2
+Close socket=264

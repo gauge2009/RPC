@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope"
+  xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:JR3="http://schemas.microsoft.com/2003/10/Serialization/"
+  xmlns:wbICalc2="http://tempuri.org/w07bICalc"
+  xmlns:JR2="http://o2.jrrpc.com/"
+  xmlns:c14n="http://www.w3.org/2001/10/xml-exc-c14n#"
+  xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"
+  xmlns:wsc="http://schemas.xmlsoap.org/ws/2005/02/sc"
+  xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+  xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+  xmlns:chan="http://schemas.microsoft.com/ws/2005/02/duplex"
+  xmlns:wsa5="http://www.w3.org/2005/08/addressing"
+  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+  xmlns:wst="http://schemas.xmlsoap.org/ws/2005/02/trust"
+  xmlns:wbICalc3="http://tempuri.org/wbICalc">
+ <SOAP-ENV:Header>
+ </SOAP-ENV:Header>
+ <SOAP-ENV:Body>
+   <JR2:Add>
+    <JR2:x>0.0</JR2:x>
+    <JR2:y>0.0</JR2:y>
+   </JR2:Add>
+
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

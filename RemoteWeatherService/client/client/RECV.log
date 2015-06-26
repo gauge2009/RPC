@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Connection: close
+Date: Thu, 25 Jun 2015 10:30:19 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private, max-age=0
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 747
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><getWeatherbyCityNameResponse xmlns="http://WebXml.com.cn/"><getWeatherbyCityNameResult><string>系统维护中！</string><string /><string /><string /><string>2015-06-25 18:30:19</string><string /><string>免费用户服务暂停。联系我们：http://www.webxml.com.cn/</string><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /></getWeatherbyCityNameResult></getWeatherbyCityNameResponse></soap:Body></soap:Envelope>HTTP/1.1 200 OK
+Connection: close
+Date: Thu, 25 Jun 2015 10:32:04 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private, max-age=0
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 747
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><getWeatherbyCityNameResponse xmlns="http://WebXml.com.cn/"><getWeatherbyCityNameResult><string>系统维护中！</string><string /><string /><string /><string>2015-06-25 18:32:04</string><string /><string>免费用户服务暂停。联系我们：http://www.webxml.com.cn/</string><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /></getWeatherbyCityNameResult></getWeatherbyCityNameResponse></soap:Body></soap:Envelope>HTTP/1.1 200 OK
+Connection: close
+Date: Thu, 25 Jun 2015 10:32:31 GMT
+Server: Microsoft-IIS/6.0
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private, max-age=0
+Content-Type: application/soap+xml; charset=utf-8
+Content-Length: 747
+
+<?xml version="1.0" encoding="utf-8"?><soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><soap:Body><getWeatherbyCityNameResponse xmlns="http://WebXml.com.cn/"><getWeatherbyCityNameResult><string>系统维护中！</string><string /><string /><string /><string>2015-06-25 18:32:31</string><string /><string>免费用户服务暂停。联系我们：http://www.webxml.com.cn/</string><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /><string /></getWeatherbyCityNameResult></getWeatherbyCityNameResponse></soap:Body></soap:Envelope>

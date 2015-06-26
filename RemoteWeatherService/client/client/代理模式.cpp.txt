@@ -1,0 +1,85 @@
+void WideChar2MultiByte(const wchar_t* src, char* dst);
+void MultiByte2WideChar(char* src, const wchar_t* dst);
+
+void CWeatherWebServiceDlg::OnBnClickedWeatherwebservicesoap()
+{
+	// TODO:  在此添加控件通知处理程序代码
+	int result = 0;
+	int cnt = 0;
+	int i = 0;
+	CString cs;
+
+	WeatherWebServiceSoapProxy wwssp(SOAP_C_UTFSTRING);
+	//wwssp.reset();
+	//wwssp.WeatherWebServiceSoapProxy_init(SOAP_C_UTFSTRING, SOAP_IO_DEFAULT);
+
+	_Weather1__getSupportCity cityName;
+	_Weather1__getSupportCityResponse  citySupportCityResponse;
+#if 0
+	cityName.byProvinceName = "北京";
+#else
+	cs = "北京";
+	cnt = (2 * cs.GetLength()) + 1;
+	cityName.byProvinceName = new char[cnt];
+	memset(cityName.byProvinceName, 0, cnt);
+	WideChar2MultiByte(cs, cityName.byProvinceName);
+	cs.Empty();
+#endif
+	result = wwssp.getSupportCity(&cityName, citySupportCityResponse);
+	if (SOAP_OK == result)
+	{
+		cnt = citySupportCityResponse.getSupportCityResult->__sizestring;
+		for (i = 0; i < cnt; i++)
+		{
+			MultiByte2WideChar(citySupportCityResponse.getSupportCityResult->string[i], cs);
+		}
+	}
+
+	_Weather1__getWeatherbyCityName weatherbyCityName;
+	_Weather1__getWeatherbyCityNameResponse  weatherbyCityNameResponse;
+
+#if 1
+	weatherbyCityName.theCityName = "北京";
+#else
+	weatherbyCityName.theCityName = new char[cnt];
+	memset(weatherbyCityName.theCityName, 0, cnt);
+	WideChar2MultiByte(cs, weatherbyCityName.theCityName);
+#endif
+	result = wwssp.getWeatherbyCityName(&weatherbyCityName, weatherbyCityNameResponse);
+
+	CStringList list;
+	if (SOAP_OK == result)
+	{
+		cnt = weatherbyCityNameResponse.getWeatherbyCityNameResult->__sizestring;
+		for (i = 0; i < cnt; i++)
+		{
+			cs.Empty();
+			MultiByte2WideChar(weatherbyCityNameResponse.getWeatherbyCityNameResult->string[i], cs);
+			list.AddTail(cs);
+		}
+	}
+
+	wwssp.destroy();
+}
+
+void MultiByte2WideChar(char* src, const wchar_t* dst)
+{
+	int iLen = MultiByteToWideChar(CP_UTF8, 0, src, strlen(src), NULL, 0);
+	if (0 == iLen)
+	{
+		return;
+	}
+
+	MultiByteToWideChar(CP_UTF8, 0, src, strlen(src), (LPWSTR)dst, iLen * 2);
+}
+
+void WideChar2MultiByte(const wchar_t* src, char* dst)
+{
+	int iLen = WideCharToMultiByte(CP_UTF8, 0, src, -1, NULL, 0, NULL, NULL);
+	if (0 == iLen)
+	{
+		return;
+	}
+
+	WideCharToMultiByte(CP_UTF8, 0, src, -1, dst, iLen, NULL, NULL);
+}

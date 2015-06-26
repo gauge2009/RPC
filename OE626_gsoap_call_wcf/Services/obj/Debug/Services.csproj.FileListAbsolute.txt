@@ -1,0 +1,17 @@
+L:\music\MetataRetrieval\MetataRetrieval\Services\bin\Debug\Services.exe.config
+L:\music\MetataRetrieval\MetataRetrieval\Services\bin\Debug\Services.exe
+L:\music\MetataRetrieval\MetataRetrieval\Services\bin\Debug\Services.pdb
+L:\music\MetataRetrieval\MetataRetrieval\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+L:\music\MetataRetrieval\MetataRetrieval\Services\obj\Debug\Services.exe
+L:\music\MetataRetrieval\MetataRetrieval\Services\obj\Debug\Services.pdb
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\Services\bin\Debug\Services.exe.config
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\Services\obj\Debug\Services.exe
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\Services\obj\Debug\Services.pdb
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\Services\bin\Debug\Services.exe
+H:\T2 15\AdvanceHere\TransactionScope\[WCF全面解析].源代码\SamplesA\Chapter 4\S408_mex+EP或http-get方式获取元数据\Services\bin\Debug\Services.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.exe.config
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\Services.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\Services.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.exe
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\bin\Debug\Services.pdb
+H:\T2 15\RPC\UNIX\gSOAP\source\S408_metadata\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache

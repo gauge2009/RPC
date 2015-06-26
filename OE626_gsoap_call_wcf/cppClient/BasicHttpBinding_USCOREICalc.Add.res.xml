@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope
+  xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"
+  xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:JR4="http://schemas.microsoft.com/2003/10/Serialization/"
+  xmlns:JR1="http://tempuri.org/"
+  xmlns:JR3="http://o2.jrrpc.com/">
+ <SOAP-ENV:Body>
+  <JR3:AddResponse>
+   <JR3:AddResult>0.0</JR3:AddResult>
+  </JR3:AddResponse>
+ </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

@@ -1,0 +1,3 @@
+http://www.webxml.com.cn/WebServices/WeatherWebService.asmx
+
+wsdl2h -o WeatherWeb.h -s -n Weather  http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl

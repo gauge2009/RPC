@@ -1,0 +1,30 @@
+POST /WebServices/WeatherWebService.asmx HTTP/1.1
+Host: www.webxml.com.cn
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://WebXml.com.cn/getWeatherbyCityName"
+Content-Length: 475
+Connection: close
+SOAPAction: "http://WebXml.com.cn/getWeatherbyCityName"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:Weather1="http://WebXml.com.cn/"><SOAP-ENV:Body><Weather1:getWeatherbyCityName><Weather1:theCityName>北京</Weather1:theCityName></Weather1:getWeatherbyCityName></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /WebServices/WeatherWebService.asmx HTTP/1.1
+Host: www.webxml.com.cn
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://WebXml.com.cn/getWeatherbyCityName"
+Content-Length: 475
+Connection: close
+SOAPAction: "http://WebXml.com.cn/getWeatherbyCityName"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:Weather1="http://WebXml.com.cn/"><SOAP-ENV:Body><Weather1:getWeatherbyCityName><Weather1:theCityName>北京</Weather1:theCityName></Weather1:getWeatherbyCityName></SOAP-ENV:Body></SOAP-ENV:Envelope>
+POST /WebServices/WeatherWebService.asmx HTTP/1.1
+Host: www.webxml.com.cn
+User-Agent: gSOAP/2.8
+Content-Type: application/soap+xml; charset=utf-8; action="http://WebXml.com.cn/getWeatherbyCityName"
+Content-Length: 475
+Connection: close
+SOAPAction: "http://WebXml.com.cn/getWeatherbyCityName"
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://www.w3.org/2003/05/soap-envelope" xmlns:SOAP-ENC="http://www.w3.org/2003/05/soap-encoding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:Weather1="http://WebXml.com.cn/"><SOAP-ENV:Body><Weather1:getWeatherbyCityName><Weather1:theCityName>北京</Weather1:theCityName></Weather1:getWeatherbyCityName></SOAP-ENV:Body></SOAP-ENV:Envelope>

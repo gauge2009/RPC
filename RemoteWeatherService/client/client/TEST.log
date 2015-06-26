@@ -1,0 +1,1356 @@
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00F7F760
+Begin count phase (socket=-1 mode=0x2000008 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(52) = 00F7F850
+Connect/reconnect to 'http://www.webxml.com.cn/WebServices/WeatherWebService.asmx' host='www.webxml.com.cn' path='/WebServices/WeatherWebService.asmx' port=80
+Opening socket=384 to host='www.webxml.com.cn' port=80
+Calculating the message size with attachments, current count=475
+New count=475
+Initializing for output to socket=384/fd=1
+Free namespace stack
+Begin send phase (socket=384 mode=0x2000001 count=475)
+HTTP POST to http://www.webxml.com.cn/WebServices/WeatherWebService.asmx
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000001
+Send 776 bytes to socket=384/fd=1
+End of send phase
+Initializing for input from socket=384/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00F7F760)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00F7F760
+Free ID hashtable
+Read 1008 bytes from socket=384/fd=0
+Read count=1008 (+1008)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Connection: close
+HTTP header: Date: Thu, 25 Jun 2015 10:30:19 GMT
+HTTP header: Server: Microsoft-IIS/6.0
+HTTP header: X-Powered-By: ASP.NET
+HTTP header: X-AspNet-Version: 2.0.50727
+HTTP header: Cache-Control: private, max-age=0
+HTTP header: Content-Type: application/soap+xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(48) = 00F8D008
+HTTP header: Content-Length: 747
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(34) = 00F8D078
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11016): malloc(256) = 00F8C6D8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00F8C818
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(24) = 00F8B218
+Push namespace binding (level=0) 'soap' 'http://www.w3.org/2003/05/soap-envelope'
+Push OK ('soap' matches 'SOAP-ENV' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00F8B2C0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00F8C9A8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00F8CB38
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00F8CBE0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00F8CC90
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00F8CE20
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+Tags and (default) namespaces match: 'soap:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(16114): malloc(40) = 00F8F578
+Tags and (default) namespaces match: 'soap:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(29) = 00F8F630
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00F8F6E0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(20) = 00F8F870
+Push namespace binding (level=2) '' 'http://WebXml.com.cn/'
+Push OK ('' matches 'Weather1' in namespace table)
+Tags and (default) namespaces match: 'getWeatherbyCityNameResponse' 'Weather1:getWeatherbyCityNameResponse'
+Begin tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+Enter id='' type=16 loc=00DC22F4 size=12 level=0
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Reverting to last element 'getWeatherbyCityNameResult' (level=3)
+soap_instantiate_Weather1__ArrayOfString(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8271): malloc(20) = 00F8F910
+Instantiated location=00F8F9B0
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Enter id='' type=8 loc=00F8F9B0 size=16 level=0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+New block sequence (prev=00000000)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2223): malloc(12) = 00F8FA00
+Push block of 4 bytes (4 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F8FA98
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00F8FB30
+Enter id='' type=4 loc=00F8FB30 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (8 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F8FBE0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F8FC78
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (12 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F8FD10
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F8FDA8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (16 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F8FE40
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F8FED8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (20 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F8FF70
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00F90008
+Enter id='' type=4 loc=00F90008 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (24 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F900B8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90150
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (28 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F901E8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(80) = 00F90280
+Enter id='' type=4 loc=00F90280 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (32 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90360
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F903F8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (36 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90490
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90528
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (40 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F905C0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90658
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (44 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F906F0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90788
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (48 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90820
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F908B8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (52 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90950
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F909E8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (56 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90A80
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90B18
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (60 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90BB0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90C48
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (64 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90CE0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90D78
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (68 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90E10
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90EA8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (72 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F90F40
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F90FD8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (76 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F91070
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F91108
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (80 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F911A0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F91238
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (84 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F912D0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F91368
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (88 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F91400
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F91498
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (92 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00F91530
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00F915C8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(104) = 00F91660
+Save all blocks in contiguous memory space of 92 bytes (00F91530->00F91660)
+First block
+Copy 4 bytes from 00F8FAA0 to 00F91660
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F8FA98)
+Copy 4 bytes from 00F8FBE8 to 00F91664
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F8FBE0)
+Copy 4 bytes from 00F8FD18 to 00F91668
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F8FD10)
+Copy 4 bytes from 00F8FE48 to 00F9166C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F8FE40)
+Copy 4 bytes from 00F8FF78 to 00F91670
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F8FF70)
+Copy 4 bytes from 00F900C0 to 00F91674
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F900B8)
+Copy 4 bytes from 00F901F0 to 00F91678
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F901E8)
+Copy 4 bytes from 00F90368 to 00F9167C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90360)
+Copy 4 bytes from 00F90498 to 00F91680
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90490)
+Copy 4 bytes from 00F905C8 to 00F91684
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F905C0)
+Copy 4 bytes from 00F906F8 to 00F91688
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F906F0)
+Copy 4 bytes from 00F90828 to 00F9168C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90820)
+Copy 4 bytes from 00F90958 to 00F91690
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90950)
+Copy 4 bytes from 00F90A88 to 00F91694
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90A80)
+Copy 4 bytes from 00F90BB8 to 00F91698
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90BB0)
+Copy 4 bytes from 00F90CE8 to 00F9169C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90CE0)
+Copy 4 bytes from 00F90E18 to 00F916A0
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90E10)
+Copy 4 bytes from 00F90F48 to 00F916A4
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F90F40)
+Copy 4 bytes from 00F91078 to 00F916A8
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F91070)
+Copy 4 bytes from 00F911A8 to 00F916AC
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F911A0)
+Copy 4 bytes from 00F912D8 to 00F916B0
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F912D0)
+Copy 4 bytes from 00F91408 to 00F916B4
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F91400)
+Copy 4 bytes from 00F91538 to 00F916B8
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00F91530)
+End of block sequence, free all remaining blocks
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2552): free(00F8FA00)
+End tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+End tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+End tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00F8F870)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00F8CE20)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00F8CB38)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00F8B218)
+Shutdown socket=384 how=2
+Close socket=384
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8185): free(00F8F910)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00F8F6E0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00F8F630)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00F8C818)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00F8D078)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00F8C9A8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00F8B2C0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00F8CC90)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00F8CBE0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8835): free(00F8C6D8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8844): free(00F8F578)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00F7F760)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F91660)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F915C8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F91498)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F91368)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F91238)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F91108)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90FD8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90EA8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90D78)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90C48)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90B18)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F909E8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F908B8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90788)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90658)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90528)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F903F8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90280)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90150)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F90008)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F8FED8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F8FDA8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F8FC78)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F8FB30)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F8D008)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00F7F850)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00F7F670)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00F7F5D8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00F7F540)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00CD2780
+Begin count phase (socket=-1 mode=0x2000008 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(52) = 00CD2810
+Connect/reconnect to 'http://www.webxml.com.cn/WebServices/WeatherWebService.asmx' host='www.webxml.com.cn' path='/WebServices/WeatherWebService.asmx' port=80
+Opening socket=380 to host='www.webxml.com.cn' port=80
+Calculating the message size with attachments, current count=475
+New count=475
+Initializing for output to socket=380/fd=1
+Free namespace stack
+Begin send phase (socket=380 mode=0x2000001 count=475)
+HTTP POST to http://www.webxml.com.cn/WebServices/WeatherWebService.asmx
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000001
+Send 776 bytes to socket=380/fd=1
+End of send phase
+Initializing for input from socket=380/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00CD2780)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00CD2780
+Free ID hashtable
+Read 1008 bytes from socket=380/fd=0
+Read count=1008 (+1008)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Connection: close
+HTTP header: Date: Thu, 25 Jun 2015 10:32:04 GMT
+HTTP header: Server: Microsoft-IIS/6.0
+HTTP header: X-Powered-By: ASP.NET
+HTTP header: X-AspNet-Version: 2.0.50727
+HTTP header: Cache-Control: private, max-age=0
+HTTP header: Content-Type: application/soap+xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(48) = 00CDB558
+HTTP header: Content-Length: 747
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(34) = 00CC34E0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11016): malloc(256) = 00CDBEA0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00CE1010
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(24) = 00CD3650
+Push namespace binding (level=0) 'soap' 'http://www.w3.org/2003/05/soap-envelope'
+Push OK ('soap' matches 'SOAP-ENV' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00CC36C0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00CE1140
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00CD34A0
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00CC3620
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00CE1498
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00CD34E8
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+Tags and (default) namespaces match: 'soap:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(16114): malloc(40) = 00CE0470
+Tags and (default) namespaces match: 'soap:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(29) = 00CC37B0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00CE15C8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(20) = 00CDCDA0
+Push namespace binding (level=2) '' 'http://WebXml.com.cn/'
+Push OK ('' matches 'Weather1' in namespace table)
+Tags and (default) namespaces match: 'getWeatherbyCityNameResponse' 'Weather1:getWeatherbyCityNameResponse'
+Begin tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+Enter id='' type=16 loc=00AB1F24 size=12 level=0
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Reverting to last element 'getWeatherbyCityNameResult' (level=3)
+soap_instantiate_Weather1__ArrayOfString(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8271): malloc(20) = 00CDCF60
+Instantiated location=00CDCA20
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Enter id='' type=8 loc=00CDCA20 size=16 level=0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+New block sequence (prev=00000000)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2223): malloc(12) = 00CE20A8
+Push block of 4 bytes (4 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1C80
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00CC3670
+Enter id='' type=4 loc=00CC3670 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (8 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1CF0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE2038
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (12 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1C48
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1D28
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (16 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1F20
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1E08
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (20 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1BD8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00CE5D28
+Enter id='' type=4 loc=00CE5D28 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (24 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1D60
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE2000
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (28 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1F90
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(80) = 00CE1270
+Enter id='' type=4 loc=00CE1270 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (32 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1D98
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1FC8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (36 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1AF8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1DD0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (40 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1F58
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1E40
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (44 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1E78
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1EB0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (48 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1EE8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE2070
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (52 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE20E0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE2118
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (56 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1B30
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE2150
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (60 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE2188
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1C10
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (64 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE1B68
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE1BA0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (68 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE2230
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE21F8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (72 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE21C0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CBDCA0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (76 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE7930
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE78F8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (80 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE7B60
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE7700
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (84 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE7968
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE7690
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (88 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE79A0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE7738
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (92 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00CE78C0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CE7C40
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(104) = 00CDD610
+Save all blocks in contiguous memory space of 92 bytes (00CE78C0->00CDD610)
+First block
+Copy 4 bytes from 00CE1C88 to 00CDD610
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1C80)
+Copy 4 bytes from 00CE1CF8 to 00CDD614
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1CF0)
+Copy 4 bytes from 00CE1C50 to 00CDD618
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1C48)
+Copy 4 bytes from 00CE1F28 to 00CDD61C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1F20)
+Copy 4 bytes from 00CE1BE0 to 00CDD620
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1BD8)
+Copy 4 bytes from 00CE1D68 to 00CDD624
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1D60)
+Copy 4 bytes from 00CE1F98 to 00CDD628
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1F90)
+Copy 4 bytes from 00CE1DA0 to 00CDD62C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1D98)
+Copy 4 bytes from 00CE1B00 to 00CDD630
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1AF8)
+Copy 4 bytes from 00CE1F60 to 00CDD634
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1F58)
+Copy 4 bytes from 00CE1E80 to 00CDD638
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1E78)
+Copy 4 bytes from 00CE1EF0 to 00CDD63C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1EE8)
+Copy 4 bytes from 00CE20E8 to 00CDD640
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE20E0)
+Copy 4 bytes from 00CE1B38 to 00CDD644
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1B30)
+Copy 4 bytes from 00CE2190 to 00CDD648
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE2188)
+Copy 4 bytes from 00CE1B70 to 00CDD64C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE1B68)
+Copy 4 bytes from 00CE2238 to 00CDD650
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE2230)
+Copy 4 bytes from 00CE21C8 to 00CDD654
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE21C0)
+Copy 4 bytes from 00CE7938 to 00CDD658
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE7930)
+Copy 4 bytes from 00CE7B68 to 00CDD65C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE7B60)
+Copy 4 bytes from 00CE7970 to 00CDD660
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE7968)
+Copy 4 bytes from 00CE79A8 to 00CDD664
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE79A0)
+Copy 4 bytes from 00CE78C8 to 00CDD668
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00CE78C0)
+End of block sequence, free all remaining blocks
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2552): free(00CE20A8)
+End tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+End tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+End tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00CDCDA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00CD34E8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00CD34A0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00CD3650)
+Shutdown socket=380 how=2
+Close socket=380
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8185): free(00CDCF60)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00CE15C8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CC37B0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00CE1010)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CC34E0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00CE1140)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CC36C0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00CE1498)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CC3620)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8835): free(00CDBEA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8844): free(00CE0470)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00CD2780)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CDD610)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE7C40)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE7738)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE7690)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE7700)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE78F8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CBDCA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE21F8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1BA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1C10)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE2150)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE2118)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE2070)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1EB0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1E40)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1DD0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1FC8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1270)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE2000)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE5D28)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1E08)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE1D28)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CE2038)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CC3670)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CDB558)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CD2810)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CB7950)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CB7B80)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CB79C0)
+Reinitializing context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00D02780
+Begin count phase (socket=-1 mode=0x2000008 count=0)
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End of count phase
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(52) = 00D02810
+Connect/reconnect to 'http://www.webxml.com.cn/WebServices/WeatherWebService.asmx' host='www.webxml.com.cn' path='/WebServices/WeatherWebService.asmx' port=80
+Opening socket=376 to host='www.webxml.com.cn' port=80
+Calculating the message size with attachments, current count=475
+New count=475
+Initializing for output to socket=376/fd=1
+Free namespace stack
+Begin send phase (socket=376 mode=0x2000001 count=475)
+HTTP POST to http://www.webxml.com.cn/WebServices/WeatherWebService.asmx
+Element begin tag='SOAP-ENV:Envelope' level='0' id='0' type=''
+Attribute 'xmlns:SOAP-ENV'='http://www.w3.org/2003/05/soap-envelope'
+Attribute 'xmlns:SOAP-ENC'='http://www.w3.org/2003/05/soap-encoding'
+Attribute 'xmlns:xsi'='http://www.w3.org/2001/XMLSchema-instance'
+Attribute 'xmlns:xsd'='http://www.w3.org/2001/XMLSchema'
+Attribute 'xmlns:Weather1'='http://WebXml.com.cn/'
+Element begin tag='SOAP-ENV:Body' level='1' id='0' type=''
+Element begin tag='Weather1:getWeatherbyCityName' level='2' id='0' type=''
+Element begin tag='Weather1:theCityName' level='3' id='0' type=''
+Element ending tag='Weather1:theCityName'
+Element ending tag='Weather1:getWeatherbyCityName'
+Element ending tag='SOAP-ENV:Body'
+Element ending tag='SOAP-ENV:Envelope'
+End send mode=0x2000001
+Send 776 bytes to socket=376/fd=1
+End of send phase
+Initializing for input from socket=376/fd=0
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00D02780)
+Free pointer hashtable
+Free ID hashtable
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(9743): malloc(96) = 00D02780
+Free ID hashtable
+Read 1008 bytes from socket=376/fd=0
+Read count=1008 (+1008)
+Waiting for HTTP request/response...
+HTTP status: HTTP/1.1 200 OK
+HTTP header: Connection: close
+HTTP header: Date: Thu, 25 Jun 2015 10:32:31 GMT
+HTTP header: Server: Microsoft-IIS/6.0
+HTTP header: X-Powered-By: ASP.NET
+HTTP header: X-AspNet-Version: 2.0.50727
+HTTP header: Cache-Control: private, max-age=0
+HTTP header: Content-Type: application/soap+xml; charset=utf-8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(48) = 00D0B258
+HTTP header: Content-Length: 747
+Finished HTTP header parsing, status = 200
+Keep alive connection = 0
+XML PI <?xml version="1.0" encoding="utf-8"?>
+Switching to utf-8 encoding
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(34) = 00CF33A0
+Enlarging look-aside buffer to append data, size=0
+New look-aside buffer size=256
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11016): malloc(256) = 00D0BEA0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00D11010
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(24) = 00D039F8
+Push namespace binding (level=0) 'soap' 'http://www.w3.org/2003/05/soap-envelope'
+Push OK ('soap' matches 'SOAP-ENV' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00CF33F0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00D11140
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00D03B18
+Push namespace binding (level=0) 'xsi' 'http://www.w3.org/2001/XMLSchema-instance'
+Push OK ('xsi' matches 'xsi' in namespace table)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(33) = 00CF34E0
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00D124D8
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(23) = 00D03F50
+Push namespace binding (level=0) 'xsd' 'http://www.w3.org/2001/XMLSchema'
+Push OK ('xsd' matches 'xsd' in namespace table)
+Tags and (default) namespaces match: 'soap:Envelope' 'SOAP-ENV:Envelope'
+Begin tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(16114): malloc(40) = 00D10470
+Tags and (default) namespaces match: 'soap:Body' 'SOAP-ENV:Body'
+Begin tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11212): malloc(29) = 00CF3530
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(11271): malloc(256) = 00D12608
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2884): malloc(20) = 00D0C960
+Push namespace binding (level=2) '' 'http://WebXml.com.cn/'
+Push OK ('' matches 'Weather1' in namespace table)
+Tags and (default) namespaces match: 'getWeatherbyCityNameResponse' 'Weather1:getWeatherbyCityNameResponse'
+Begin tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+Enter id='' type=16 loc=009A21E4 size=12 level=0
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Reverting to last element 'getWeatherbyCityNameResult' (level=3)
+soap_instantiate_Weather1__ArrayOfString(-1, , )
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8271): malloc(20) = 00D0CF20
+Instantiated location=00D0CC60
+Tags and (default) namespaces match: 'getWeatherbyCityNameResult' 'Weather1:getWeatherbyCityNameResult'
+Begin tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+Enter id='' type=8 loc=00D0CC60 size=16 level=0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+New block sequence (prev=00000000)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2223): malloc(12) = 00D13040
+Push block of 4 bytes (4 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12C18
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00CF3580
+Enter id='' type=4 loc=00CF3580 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (8 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13158
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12EB8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (12 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D131C8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12CC0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (16 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12E10
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12F98
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (20 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13120
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(32) = 00D15A58
+Enter id='' type=4 loc=00D15A58 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (24 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13190
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D13078
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Push block of 4 bytes (28 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13008
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=5) 'string'='Weather1:string'
+Reading string content, flag=1
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(80) = 00D11270
+Enter id='' type=4 loc=00D11270 size=4 level=0
+End tag found (level=5) 'string'='Weather1:string'
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (32 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12F28
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12D30
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (36 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12CF8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12EF0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (40 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12B70
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12B00
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (44 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12FD0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12E48
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (48 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12C88
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12B38
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (52 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12BE0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12D68
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (56 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12DD8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12C50
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (60 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D12E80
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D12F60
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (64 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D130B0
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D130E8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (68 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13238
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D13270
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (72 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D13200
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00CEDCA0
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (76 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D17DC8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D17D58
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (80 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D17D90
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D17850
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (84 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D17700
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D176C8
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (88 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D17CE8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D17738
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+Push block of 4 bytes (92 bytes total)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2245): malloc(12) = 00D179D8
+Reverting to last element 'string' (level=4)
+Tags and (default) namespaces match: 'string' 'Weather1:string'
+Begin tag found (level=4) 'string'='Weather1:string'
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(12) = 00D17C08
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(7968): malloc(104) = 00D0D610
+Save all blocks in contiguous memory space of 92 bytes (00D179D8->00D0D610)
+First block
+Copy 4 bytes from 00D12C20 to 00D0D610
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12C18)
+Copy 4 bytes from 00D13160 to 00D0D614
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13158)
+Copy 4 bytes from 00D131D0 to 00D0D618
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D131C8)
+Copy 4 bytes from 00D12E18 to 00D0D61C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12E10)
+Copy 4 bytes from 00D13128 to 00D0D620
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13120)
+Copy 4 bytes from 00D13198 to 00D0D624
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13190)
+Copy 4 bytes from 00D13010 to 00D0D628
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13008)
+Copy 4 bytes from 00D12F30 to 00D0D62C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12F28)
+Copy 4 bytes from 00D12D00 to 00D0D630
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12CF8)
+Copy 4 bytes from 00D12B78 to 00D0D634
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12B70)
+Copy 4 bytes from 00D12FD8 to 00D0D638
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12FD0)
+Copy 4 bytes from 00D12C90 to 00D0D63C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12C88)
+Copy 4 bytes from 00D12BE8 to 00D0D640
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12BE0)
+Copy 4 bytes from 00D12DE0 to 00D0D644
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12DD8)
+Copy 4 bytes from 00D12E88 to 00D0D648
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D12E80)
+Copy 4 bytes from 00D130B8 to 00D0D64C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D130B0)
+Copy 4 bytes from 00D13240 to 00D0D650
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13238)
+Copy 4 bytes from 00D13208 to 00D0D654
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D13200)
+Copy 4 bytes from 00D17DD0 to 00D0D658
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D17DC8)
+Copy 4 bytes from 00D17D98 to 00D0D65C
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D17D90)
+Copy 4 bytes from 00D17708 to 00D0D660
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D17700)
+Copy 4 bytes from 00D17CF0 to 00D0D664
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D17CE8)
+Copy 4 bytes from 00D179E0 to 00D0D668
+Next block
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2506): free(00D179D8)
+End of block sequence, free all remaining blocks
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(2552): free(00D13040)
+End tag found (level=4) 'getWeatherbyCityNameResult'='Weather1:getWeatherbyCityNameResult'
+End tag found (level=3) 'getWeatherbyCityNameResponse'='Weather1:getWeatherbyCityNameResponse'
+End tag found (level=2) 'soap:Body'='SOAP-ENV:Body'
+End tag found (level=1) 'soap:Envelope'='SOAP-ENV:Envelope'
+End of receive message ok
+Resolving forwarded data
+Resolution phase
+Resolution done
+Free namespace stack
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00D0C960)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00D03F50)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00D03B18)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8873): free(00D039F8)
+Shutdown socket=376 how=2
+Close socket=376
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8185): free(00D0CF20)
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00D12608)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CF3530)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00D11010)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CF33A0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00D11140)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CF33F0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8829): free(00D124D8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8830): free(00CF34E0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8835): free(00D0BEA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8844): free(00D10470)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8848): free(00D02780)
+Free pointer hashtable
+Free ID hashtable
+Free all soap_malloc() data
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D0D610)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D17C08)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D17738)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D176C8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D17850)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D17D58)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CEDCA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D13270)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D130E8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12F60)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12C50)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12D68)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12B38)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12E48)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12B00)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12EF0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12D30)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D11270)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D13078)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D15A58)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12F98)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12CC0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D12EB8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00CF3580)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D0B258)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(8127): free(00D02810)
+Done with context
+Free namespace stack
+Free any remaining temp blocks
+Free attribute storage
+Free pointer hashtable
+Free ID hashtable
+Free logfiles
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CE7BB8)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CE7AA0)
+h:\t2 15\rpc\unix\gsoap\source\weather\client\client\stdsoap2.cpp(5652): free(00CE7950)
